@@ -1,4 +1,6 @@
-export const steps = [
+import { Step } from "./types";
+
+export const steps: Step[] = [
   {
     id: "75274a20-f0b4-42f7-acb9-5001daac9734",
     label: "Bâtiment",
@@ -20,7 +22,6 @@ export const steps = [
             label: "Professionnel",
           },
         ],
-        placeholder: null,
         type: "SELECT",
         value: "0",
         validations: [],
@@ -38,7 +39,6 @@ export const steps = [
             label: "Ancien",
           },
         ],
-        placeholder: null,
         type: "SELECT",
         value: "1",
         validations: [],
@@ -72,7 +72,6 @@ export const steps = [
             label: "5",
           },
         ],
-        placeholder: null,
         type: "SELECT",
         validations: [
           {
@@ -103,7 +102,6 @@ export const steps = [
             label: "Siporex",
           },
         ],
-        placeholder: null,
         type: "SELECT",
         validations: [],
         value: "",
@@ -111,7 +109,6 @@ export const steps = [
       {
         id: "19aa9d24-6cf0-4df7-83ef-5245e85f3970",
         label: "Nombre de panneaux",
-        placeholder: null,
         type: "TEXT",
         validations: [
           {
@@ -119,7 +116,7 @@ export const steps = [
             type: "required",
           },
         ],
-        value: "",
+        value: "ma value",
       },
       {
         id: "6ea08223-000e-4423-91d5-14f7afb1e90b",
@@ -134,7 +131,6 @@ export const steps = [
             label: "Non",
           },
         ],
-        placeholder: null,
         type: "SELECT",
         validations: [
           {
@@ -157,7 +153,6 @@ export const steps = [
             label: "Non",
           },
         ],
-        placeholder: null,
         type: "SELECT",
         value: "",
       },

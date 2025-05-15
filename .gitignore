@@ -128,3 +128,23 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Node.js
+node_modules/
+.env
+
+# Next.js
+.next/
+out/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+
+# VSCode
+.vscode/
+
+# Lock files (optionnel)
+package-lock.json
+pnpm-lock.yaml

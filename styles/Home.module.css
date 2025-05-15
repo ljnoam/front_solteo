@@ -114,3 +114,9 @@
     flex-direction: column;
   }
 }
+
+.select-container {
+   display: flex;
+   flex-direction: 'row';
+   flex-gap: 1;
+ }
